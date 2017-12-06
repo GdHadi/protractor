@@ -12,7 +12,11 @@ exports.config = {
   // Spec patterns are relative to the configuration file location passed
   // to protractor (in this example conf.js).
   // They may include glob patterns.
-  specs: ['myFirstTest_spec2.js'],
+  specs: [
+    //here is spect to test
+    'myFirstTest_spec2.js'
+  
+  ],
 
   // Options to be passed to Jasmine-node..
   jasmineNodeOpts: {
