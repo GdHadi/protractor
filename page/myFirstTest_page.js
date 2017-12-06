@@ -8,7 +8,7 @@ var testPage = function (){
     this.homepage = function(){
          browser.get("https://angularjs.org/");
     }
-    //action
+    //action.
     this.clickmenuLearn = function(){
         menuLearn.click();
     }

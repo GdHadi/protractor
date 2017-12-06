@@ -5,7 +5,7 @@ describe ("Hide FAQ", function (){
        var get = new testPage();
        get.homepage();
    });
- 
+  //first scenario
   it ("click hide button", function(){
         var actclickmenuLearn = new testPage();
         var actclickmenuFAQ = new testPage();
